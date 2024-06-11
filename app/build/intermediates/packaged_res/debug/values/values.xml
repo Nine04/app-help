@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#103CE7</color>
+    <color name="cyan">#64E9FF</color>
+    <color name="green">#31d68f</color>
+    <color name="lavender">#8692f7</color>
+    <color name="red">#ef476f</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">help</string>
+    <style name="Base.Theme.Help" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Help" parent="Base.Theme.Help"/>
+</resources>

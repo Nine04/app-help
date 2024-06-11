@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLPasien"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tx_nama_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Dr. Agus Hartono"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_id_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_id_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="2131231421"
+        android:textColor="#3D5AFE"
+        app:layout_constraintStart_toEndOf="@+id/img_pasien_row"
+        app:layout_constraintTop_toTopOf="@+id/img_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_email_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Agushartono@gmail.com"
+        app:layout_constraintStart_toStartOf="@+id/tx_nama_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_nama_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_hp_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="08123123124"
+        app:layout_constraintStart_toStartOf="@+id/tx_email_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_email_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_spesialis_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Spesialis : Bedah"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tx_hp_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_hp_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_ekg_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="EKG : 80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tx_spesialis_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_tinggi_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tinggi : 180"
+        app:layout_constraintStart_toStartOf="@+id/tx_ekg_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_ekg_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_berat_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Berat : 80"
+        app:layout_constraintStart_toStartOf="@+id/tx_tinggi_pasien_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_tinggi_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_goldar_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Goldar : B"
+        app:layout_constraintStart_toEndOf="@+id/tx_ekg_pasien_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_ekg_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_penyakit_bawaan_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penyakit"
+        app:layout_constraintStart_toStartOf="@+id/tx_goldar_pasien_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_berat_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_tensi_pasien_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tensi : 80"
+        app:layout_constraintStart_toStartOf="@+id/tx_goldar_pasien_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_tinggi_pasien_row" />
+
+    <TextView
+        android:id="@+id/tx_alamat_pasien_row"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:text="alamat"
+        app:layout_constraintStart_toEndOf="@+id/tx_tensi_pasien_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_goldar_pasien_row" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

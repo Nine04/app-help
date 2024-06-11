@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvFormPasien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="Form Pasien"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Id : "
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@id/idFormPasien"
+        app:layout_constraintTop_toTopOf="@+id/tvFormPasien" />
+
+    <TextView
+        android:id="@+id/idFormPasien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif"
+        android:text="Id"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvFormPasien" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvFormPasien">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_edittext2"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/namaFormDokter"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi Nama Pasien"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/alamatFormDokter"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi Alamat"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/noTelpFormDokter"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi No HP"
+                android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/custom_edittext2"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <EditText
+                android:id="@+id/tinggiFormPasien"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Tinggi"
+                android:paddingLeft="13dp"
+                />
+
+            <EditText
+                android:id="@+id/beratFormPasien"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Berat"
+                android:paddingLeft="18dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/custom_edittext2"
+            android:orientation="horizontal"
+            android:paddingTop="0dp"
+            android:paddingBottom="15dp">
+
+            <EditText
+                android:id="@+id/ekgFormPasien"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="EKG"
+                android:paddingLeft="23dp"
+                />
+
+            <EditText
+                android:id="@+id/goldarFormPasien"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Goldar"
+                android:paddingLeft="13dp"
+                />
+
+            <EditText
+                android:id="@+id/tensiFormPasien"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Tensi"
+                android:paddingLeft="18dp"
+                />
+
+        </LinearLayout>
+
+            <EditText
+                android:id="@+id/penyakitFormPasien"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi Penyakit Bawaan"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/emailFormPasien"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi Email"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/passFormPasien"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext3"
+                android:hint="Isi Password"
+                android:inputType="textPassword"
+                android:padding="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

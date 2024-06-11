@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_reseps_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tx_nama_reseps_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Dr. Agus Hartono"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_reseps_profil"
+        app:layout_constraintTop_toBottomOf="@+id/tx_id_reseps_profil" />
+
+    <TextView
+        android:id="@+id/tx_id_reseps_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="2131231421"
+        app:layout_constraintStart_toEndOf="@+id/img_reseps_profil"
+        app:layout_constraintTop_toTopOf="@+id/img_reseps_profil" />
+
+    <TextView
+        android:id="@+id/tx_email_reseps_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Agushartono@gmail.com"
+        app:layout_constraintStart_toStartOf="@+id/tx_nama_reseps_profil"
+        app:layout_constraintTop_toBottomOf="@+id/tx_nama_reseps_profil" />
+
+    <TextView
+        android:id="@+id/tx_hp_reseps_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="08123123124"
+        app:layout_constraintStart_toStartOf="@+id/tx_email_reseps_profil"
+        app:layout_constraintTop_toBottomOf="@+id/tx_email_reseps_profil" />
+
+    <Button
+        android:id="@+id/btn_editProfil_reseps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Edit Profil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_editPw_reseps" />
+
+    <Button
+        android:id="@+id/btn_editPw_reseps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Password"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_editProfil_reseps"
+        app:layout_constraintEnd_toStartOf="@+id/btn_editProfil_reseps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_editProfil_reseps" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

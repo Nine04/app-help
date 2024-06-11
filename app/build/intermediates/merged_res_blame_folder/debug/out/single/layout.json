@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_crudrekam_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_crudrekam_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\dialog_form_pasien.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\dialog_form_pasien.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\frag_profil_dokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\frag_profil_dokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\frag_crudrekam_dokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\frag_crudrekam_dokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_dashboard_dokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_dashboard_dokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\dialog_form_dokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\dialog_form_dokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_dashboard_pasien.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_dashboard_pasien.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_dashboard_reseps.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_dashboard_reseps.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\row_rekam.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\row_rekam.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_crudresepsionis_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_crudresepsionis_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\dialog_form_resepsionis.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\dialog_form_resepsionis.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\row_reseps.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\row_reseps.xml"
+    },
+    {
+        "merged": "toti.navio.alfian.help.app-mergeDebugResources-30:/layout/activity_crudrekam.xml",
+        "source": "toti.navio.alfian.help.app-main-33:/layout/activity_crudrekam.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_crudpasien.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_crudpasien.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\frag_profil_pasien.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\frag_profil_pasien.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_historyrekam.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_historyrekam.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\row_pasien.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\row_pasien.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_dashboard_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_dashboard_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_crudpasien_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_crudpasien_admin.xml"
+    },
+    {
+        "merged": "toti.navio.alfian.help.app-mergeDebugResources-30:/layout/activity_crudresepsionis.xml",
+        "source": "toti.navio.alfian.help.app-main-33:/layout/activity_crudresepsionis.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\row_dokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\row_dokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_profil_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_profil_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_cruddokter_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_cruddokter_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\dialog_form_rekam.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\dialog_form_rekam.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_profil_reseps.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_profil_reseps.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_cruddokter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_cruddokter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-mergeDebugResources-30:\\layout\\activity_crudpasien_reseps.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\toti.navio.alfian.help.app-main-33:\\layout\\activity_crudpasien_reseps.xml"
+    }
+]
