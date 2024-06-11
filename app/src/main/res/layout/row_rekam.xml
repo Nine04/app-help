@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cLRekam"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tx_id_rekam_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_pasien_rekam_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Agus"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tx_id_rekam_row"
+        app:layout_constraintStart_toEndOf="@+id/tx_id_rekam_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_id_rekam_row" />
+
+    <TextView
+        android:id="@+id/tx_dokter_rekam_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Dr. Jaki"
+        app:layout_constraintStart_toStartOf="@+id/tx_id_rekam_row"
+        app:layout_constraintTop_toBottomOf="@+id/tx_pasien_rekam_row" />
+
+    <TextView
+        android:id="@+id/tx_keluhan_rekam_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Pusing"
+        app:layout_constraintStart_toEndOf="@+id/tx_pasien_rekam_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_id_rekam_row" />
+
+    <TextView
+        android:id="@+id/tx_diagnosa_rekam_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Stroke"
+        app:layout_constraintStart_toEndOf="@+id/tx_dokter_rekam_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_dokter_rekam_row" />
+
+    <TextView
+        android:id="@+id/tx_arahan_rekam_row"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:text="aksjdadad"
+        app:layout_constraintStart_toEndOf="@+id/tx_diagnosa_rekam_row"
+        app:layout_constraintTop_toTopOf="@+id/tx_diagnosa_rekam_row" />
+</androidx.constraintlayout.widget.ConstraintLayout>
